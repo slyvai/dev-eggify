@@ -1,0 +1,47 @@
+.ant-layout{
+    width: 100vw;
+    height: 100vh;
+}
+.ant-menu-item {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+.ant-menu-item-active, .ant-menu-item-selected {
+    background: #fff !important;
+    color: #28A870 !important;
+}
+.ant-menu-item .anticon {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+.ant-menu {
+    background-color: #DAEEED;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    transform: translateY(4vw);
+}
+.menu-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-71px);
+}
+.ant-layout-header {
+    border-bottom: 2px solid #DAEEED;
+}
+
+.ant-layout-sider-children{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-container .logo {
+    background-color: #0d8872;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}

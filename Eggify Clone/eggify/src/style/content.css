@@ -1,0 +1,424 @@
+.hero-banner {
+    background: linear-gradient(135deg, #2D9B6F 0%, #34C47C 100%);
+    height: min(30.222vh, 17vw);
+    padding: min(3.556vh, 2vw);
+    border-radius: min(1.244vh, 0.7vw);
+    line-height: 1.3;
+}
+.hero-text {
+    color: #fff;
+}
+.hero-text h1 {
+    font-size: min(4.622vh, 2.6vw);
+    line-height: 1.3;
+}
+.hero-text p {
+    font-size: min(1.422vh, 0.8vw);
+}
+.hero-text button {
+    background-color: #fff;
+    color: #28A870;
+    border-radius: min(0.889vh, 0.5vw);
+    border: none;
+    padding:  min(0.889vh, 0.5vw) min(1.778vh, 1vw);
+    font-weight: bold;
+    font-size: min(1.422vh, 0.8vw);
+    margin-top: min(1.778vh, 1vw);
+}
+.hero-text .text-image {
+    display: flex;
+}
+.hero-text .text-image img {
+    width: min(44.444vh, 25vw);
+    height: min(40.889vh, 23vw);
+    position: absolute;
+    top: -12%;
+}
+.meal-today {
+    background-color: #FCF1E4;
+    height: min(30.222vh, 17vw);
+    width: min(46.222vh, 26vw);
+    border-radius: min(1.244vh, 0.7vw);
+}
+.meal-today .title {
+    display: flex;
+    flex-direction: row;
+    font-size: min(3.022vh, 1.7vw);
+    align-items: center;
+    gap: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw);
+    color: #0d8872;
+}
+.meal-today .title p {
+    font-size: min(3.556vh, 2vw);
+}
+.meal-today .date {
+    border-radius: 40%;
+    border: 1px solid #0d8872;
+    max-width: min(6.222vh, 3.5vw);
+    font-size: min(2.133vh, 1.2vw);
+    padding: min(1.244vh, 0.7vw);
+    text-align: center;
+}
+.meal-today .desc {
+    margin: min(0.533vh, 0.3vw) min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+    line-height: 1.7;
+}
+.meal-today .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: min(1.778vh, 1vw)min(1.778vh, 1vw);
+}
+.meal-today .icon-1 {
+    display: flex;
+    gap: min(3.556vh, 2vw);
+    font-size: min(1.778vh, 1vw);
+}
+.meal-today .like {
+    display: flex;
+    align-items: center;
+}
+.meal-today .calories {
+    display: flex;
+    align-items: center;
+}
+.meal-today .button button{
+    font-size: min(1.778vh, 1vw);
+    padding: min(0.533vh, 0.3vw);
+    border-radius: min(0.889vh, 0.5vw);
+    background-color: #FCF1E4;
+    color: #0d8872;
+    font-weight: bold;
+    border: 1px solid #0d8872;
+}
+.red-bread {
+    background-color: #FEE4E5;
+    height: min(30.222vh, 17vw);
+    border-radius: min(1.244vh, 0.7vw);
+}
+.red-bread .text-image .image {
+    display: flex;
+    justify-content: center;
+}
+.red-bread .text-image .image img {
+    width: min(16vh, 9vw);
+    height: min(16vh, 9vw);
+    object-fit: cover;
+    border-radius: 50%;
+}
+.red-bread .text-image .text {
+    padding: min(0.889vh, 0.5vw);
+    text-align: center;
+    font-size: min(1.778vh, 1vw);
+}
+.red-bread .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.red-bread .bottom {
+    display: flex;
+    margin: min(2.578vh, 1.45vw) min(1.778vh, 1vw);
+}
+.red-bread .bottom .icon-1 {
+    font-size: min(1.422vh, 0.8vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(0.711vh, 0.4vw);
+}
+.red-bread .bottom .icon-1 .like {
+    display: flex;
+    align-items: center;
+}
+.red-bread .bottom .icon-1 .calories{
+    display: flex;
+    align-items: center;
+}
+.red-bread .bottom button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(0.533vh, 0.3vw);
+    border-radius: min(0.889vh, 0.5vw);
+    background-color: #FEE4E5;
+    color: #0d8872;
+    font-weight: bold;
+    border: 1px solid #0d8872;
+}
+.grilled-chicken {
+    background-color: #D3E9D3;
+    height: min(30.222vh, 17vw);
+    border-radius: min(1.244vh, 0.7vw);
+}
+.grilled-chicken .text-image .image {
+    display: flex;
+    justify-content: center;
+}
+.grilled-chicken .text-image .image img {
+    width: min(16vh, 9vw);
+    height: min(16vh, 9vw);
+    object-fit: cover;
+    border-radius: 50%;
+}
+.grilled-chicken .text-image .text {
+    padding: min(0.889vh, 0.5vw);
+    text-align: center;
+    font-size: min(1.778vh, 1vw);
+}
+.grilled-chicken .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.grilled-chicken .bottom {
+    display: flex;
+    margin: min(2.578vh, 1.45vw) min(1.778vh, 1vw);
+}
+.grilled-chicken .bottom .icon-1 {
+    font-size: min(1.422vh, 0.8vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(0.711vh, 0.4vw);
+}
+.grilled-chicken .bottom .icon-1 .like {
+    display: flex;
+    align-items: center;
+}
+.grilled-chicken .bottom .icon-1 .calories{
+    display: flex;
+    align-items: center;
+}
+.grilled-chicken .bottom button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(0.533vh, 0.3vw);
+    border-radius: min(0.889vh, 0.5vw);
+    background-color: #D3E9D3;
+    color: #0d8872;
+    font-weight: bold;
+    border: 1px solid #0d8872;
+}
+.cashew-nut-salad {
+    background-color: #E2F2FF;
+    height: min(30.222vh, 17vw);
+    border-radius: min(1.244vh, 0.7vw);
+}
+.cashew-nut-salad .text-image .image {
+    display: flex;
+    justify-content: center;
+}
+.cashew-nut-salad .text-image .image img {
+    width: min(16vh, 9vw);
+    height: min(16vh, 9vw);
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cashew-nut-salad .text-image .text {
+    padding: min(0.889vh, 0.5vw);
+    text-align: center;
+    font-size: min(1.778vh, 1vw);
+}
+.cashew-nut-salad .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.cashew-nut-salad .bottom {
+    display: flex;
+    margin: min(2.578vh, 1.45vw) min(1.778vh, 1vw);
+}
+.cashew-nut-salad .bottom .icon-1 {
+    font-size: min(1.422vh, 0.8vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(0.711vh, 0.4vw);
+}
+.cashew-nut-salad .bottom .icon-1 .like {
+    display: flex;
+    align-items: center;
+}
+.cashew-nut-salad .bottom .icon-1 .calories{
+    display: flex;
+    align-items: center;
+}
+.cashew-nut-salad .bottom button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(0.533vh, 0.3vw);
+    border-radius: min(0.889vh, 0.5vw);
+    background-color: #E2F2FF;
+    color: #0d8872;
+    font-weight: bold;
+    border: 1px solid #0d8872;
+}
+.sticky-note {
+    background-color: #FEFFDF;
+    height: min(26.667vh, 15vw);
+    border-radius: min(1.244vh, 0.7vw);
+    border: 1.5px solid #e3e3e3;
+}
+.sticky-note .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+    margin: min(1.778vh, 1vw) min(1.778vh, 1vw);
+    height: min(3.556vh, 2vw);
+}
+.sticky-note .title .navigation {
+    display: flex;
+    align-items: center;
+    gap: min(1.244vh, 0.7vw);
+}
+.navigation .prev, .navigation .next {
+   background-color: #e3e3e3;
+    border-radius: 50%;
+    width: min(2.311vh, 1.3vw);
+    height: min(2.311vh, 1.3vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky-note .text p {
+    font-size: min(1.778vh, 1vw);
+}
+.sticky-note .text {
+    display: flex;
+    align-items: center;
+    gap: min(0.889vh, 0.5vw);
+}
+.sticky-note .add-button {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(2.311vh, 1.3vw);
+    height: min(2.311vh, 1.3vw);
+    border-radius: 50%;
+}
+.sticky-note .note-content {
+    display: flex;
+    margin: min(1.778vh, 1vw) min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+    border-bottom: 1px solid #e3e3e3;
+}
+.upcoming-task {
+    background-color: #ffffff;
+    height: min(26.667vh, 15vw);
+    border-radius: min(1.244vh, 0.7vw);
+}
+.upcoming-task .text p {
+    font-size: min(1.778vh, 1vw);
+    margin: min(1.778vh, 1vw) min(0.889vh, 0.5vw);
+}
+.upcoming-task .all-task p {
+    font-size: min(1.422vh, 0.8vw);
+    color: #0d8872;
+}
+.upcoming-task .all-task {
+    display: flex;
+    align-items: center;
+    margin:  min(1.778vh, 1vw) min(1.067vh, 0.6vw) ;
+    gap: min(0.356vh, 0.2vw);
+}
+.upcoming-task .all-task .anticon-right {
+    color: #0d8872;
+}
+.upcoming-task .text {
+    display: flex;
+    align-items: center;
+    gap: min(0.533vh, 0.3vw);
+}
+.upcoming-task .title {
+    display: flex;
+    justify-content: space-between;
+}
+.upcoming-task .title .add-button {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(2.311vh, 1.3vw);
+    height: min(2.311vh, 1.3vw);
+    border-radius: 20%;
+}
+.shopping-list {
+    background-color: #ffffff;
+    height: min(44.444vh, 25vw);
+    border-radius: 0.7vw;
+    width: min(37.333vh, 21vw);
+}
+.shopping-list .title {
+    font-size: min(1.689vh, 0.95vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e3e3;
+    height: min(4.444vh, 2.5vw);
+    margin: 0 min(0.889vh, 0.5vw);
+}
+.shopping-list .title .see-all{
+    display: flex;
+    color: #0d8872;
+    gap: min(0.711vh, 0.4vw);
+    font-size: min(1.422vh, 0.8vw);
+    align-items: center;
+}
+.shopping-list .title .anticon-right {
+    color: #0d8872;
+}
+.shopping-list .title .text {
+    display: flex;
+    gap: min(0.533vh, 0.3vw);
+}
+.shopping-list .shopping-items .shopping-item {
+    display: flex;
+    margin: 0 min(0.889vh, 0.5vw);
+}
+.shopping-list .shopping-items .shopping-item .item-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: min(1.6vh, 0.9vw);
+    line-height: 3;
+    width: 100%;
+}
+.shopping-list .shopping-items .shopping-item .item-info .item-name {
+    margin-left: 0.5vw;
+}
+.shopping-list .shop-now {
+    background-color: #0d8872;
+    color: #ffffff;
+    border-radius: min(0.889vh, 0.5vw);
+    border: none;
+    width: 100%;
+    padding: min(1.244vh, 0.7vw) ;
+    font-weight: bold;
+    font-size: min(1.422vh, 0.8vw);
+    margin-top: min(0.889vh, 0.5vw);
+}
+.ant-checkbox{
+    border: 1px solid #0d8872;
+}
+.ant-checkbox-checked {
+    background-color: #0d8872;
+}
+.offers {
+    background-color: #ffffff;
+    height: min(44.444vh, 25vw);
+    width: min(37.333vh, 21vw);
+}
+.offers .title {
+    margin: min(1.778vh, 1vw) min(0.5vw, 0.889vh);
+}
+.offers .title .text{
+    font-size: min(1.778vh, 1vw);
+}
+.offers .title .desc{
+    font-size: min(1.6vh, 0.9vw);
+}
+.offers .images {
+    display: flex;
+    justify-content: center;
+    margin-top: min(3.556vh, 2vw);
+}
+.offers .images img {
+    width: min(30.222vh, 17vw);
+    border-radius: min(1.244vh, 0.7vw);
+    height: min(30.222vh, 17vw);
+}
+
+

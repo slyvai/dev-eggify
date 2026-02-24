@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#search-input {
+    width: min(48vh, 27vw);
+    height: min(4.267vh, 2.4vw);
+    border-radius: min(0.533vh, 0.3vw);
+    border: 1px solid #28A870;
+    padding: min(1.778vh, 1vw);
+    background-color: #DAEEED;
+}
+header h1{
+    color: #28A870;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: min(1.778vh, 1vw);
+}
+.anticon-bell svg{
+    width: min(2.311vh, 1.3vw);
+    height: min(2.311vh, 1.3vw) ;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    transform: translateX(min(1.6vh, 0.9vw));
+}
