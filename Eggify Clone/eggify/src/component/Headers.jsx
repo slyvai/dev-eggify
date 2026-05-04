@@ -17,7 +17,6 @@ function Headers() {
                     <BellOutlined />
                     <Avatar size={45} icon={<UserOutlined />}/>
                 </div>
-
             </header>
         </>
     )
